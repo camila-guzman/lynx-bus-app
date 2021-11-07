@@ -1,11 +1,14 @@
 import React from "react";
+import Image from "react";
 
 function StartUp(props) {
     return (
         <View>
             <Text>
-                Start Up Screen
-            </Text>
+                
+                <Image source={require('../assets/lynx.png')} />
+                
+           </Text>
         </View>
     );
 }
