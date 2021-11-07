@@ -1,5 +1,7 @@
 import React from "react";
-import {View, StyleSheet, Text, Image } from "react-native";
+import {View, StyleSheet, Text, Image, Button } from "react-native";
+import StartUpLogin from "../Start Up- Login";
+
 
 function StartUp() {
     return (
@@ -7,7 +9,11 @@ function StartUp() {
             <Text>
                 
                 <Image source={require('../../assets/lynx.png')} />
-                
+                <Button
+               onPress={() => StartUpLogin()}
+                title="Login">
+               Press Me
+              </Button> 
            </Text>
         </View>
     );
