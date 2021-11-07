@@ -7,7 +7,15 @@ import DrawerNav from './navs/DrawerNav';
 import RoutesScreen from './screens/Routes';
 import Filters from './screens/Routes';
 
-const Stack = createStackNavigator();
+import Home from './screens/Home';
+import Routes from './screens/Routes';
+import TripPlanner from './screens/Trip Planner';
+import BusPasses from './screens/Bus Passes';
+import Account from './screens/Account';
+import Settings from './screens/Settings';
+import StartUp from './screens/Start Up Page';
+
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (

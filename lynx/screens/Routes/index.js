@@ -1,4 +1,3 @@
-import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import {View, Text, Button, FlatList, SafeAreaView } from "react-native";
 import { Icon } from "react-native-elements/dist/icons/Icon";
@@ -168,4 +167,4 @@ function RoutesScreen(props){
     );
 }
 
-export default RoutesScreen;
+export default Routes;
