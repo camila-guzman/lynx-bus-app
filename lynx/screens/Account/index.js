@@ -1,9 +1,12 @@
 import React from "react";
+import {View, Text } from "react-native";
 
-function Account({ navigation }){
+function Account(){
     return (
         <View>
             <Text>Account Screen</Text>
         </View>
     );
 }
+
+export default Account;

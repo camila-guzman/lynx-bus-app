@@ -5,50 +5,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { CreateNativeStackNavigatior, createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-
-function Home({ navigation }){
-    return (
-        <View>
-            <Text>Home Screen with Map</Text>
-
-        </View>
-    );
-}
-function Routes({ navigation }){
-  return (
-      <View>
-          <Text>Routes Screen</Text>
-      </View>
-  );
-}
-function TripPlanner({ navigation }){
-  return (
-      <View>
-          <Text>Trip Planner Screen</Text>
-      </View>
-  );
-}
-function BusPasses({ navigation }){
-  return (
-      <View>
-          <Text>Bus Passes Screen</Text>
-      </View>
-  );
-}
-function Account({ navigation }){
-  return (
-      <View>
-          <Text>Account Screen</Text>
-      </View>
-  );
-}
-function Settings({ navigation }){
-  return (
-      <View>
-          <Text>Settings Screen</Text>
-      </View>
-  );
-}
+import Home from './screens/Home';
+import Routes from './screens/Routes';
+import TripPlanner from './screens/Trip Planner';
+import BusPasses from './screens/Bus Passes';
+import Account from './screens/Account';
+import Settings from './screens/Settings';
 
 const Drawer = createDrawerNavigator();
 

@@ -1,14 +1,14 @@
 import React from "react";
 import {View, Text } from "react-native";
 
-function StartUp() {
+function StartUpLogin() {
     return (
         <View>
             <Text>
-                Start Up Screen
+                Start Up Login Screen
             </Text>
         </View>
     );
 }
 
-export default StartUp;
+export default StartUpLogin;

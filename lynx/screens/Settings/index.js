@@ -1,4 +1,5 @@
 import React from "react";
+import {View, Text } from "react-native";
 
 function Settings({ navigation }){
     return (
@@ -7,3 +8,5 @@ function Settings({ navigation }){
         </View>
     );
 }
+
+export default Settings;
