@@ -1,7 +1,7 @@
 import React from "react";
 import {View, Text } from "react-native";
 
-function Settings({ navigation }){
+function SettingsScreen({ navigation }){
     return (
         <View>
             <Text>Settings Screen</Text>
@@ -9,4 +9,4 @@ function Settings({ navigation }){
     );
 }
 
-export default Settings;
+export default SettingsScreen;
