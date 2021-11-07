@@ -1,5 +1,9 @@
 import React from "react";
 import {View, StyleSheet, Text, Image, Button } from "react-native";
+import { NavigationContainer } from '@react-navigation/native';
+import { CreateNativeStackNavigatior, createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
 import StartUpLogin from "../Start Up- Login";
 
 
@@ -9,11 +13,6 @@ function StartUp() {
             <Text>
                 
                 <Image source={require('../../assets/lynx.png')} />
-                <Button
-               onPress={() => StartUpLogin()}
-                title="Login">
-               Press Me
-              </Button> 
            </Text>
         </View>
     );

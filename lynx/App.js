@@ -17,8 +17,7 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-    //StartUp()
-  
+
   <NavigationContainer>
       <Drawer.Navigator initialRouteName="HomeScreen">
       <Drawer.Screen name="Home" component={Home} />
