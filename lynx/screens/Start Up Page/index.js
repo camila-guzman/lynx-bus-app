@@ -1,20 +1,25 @@
 import React from "react";
-<<<<<<< HEAD
-import {View, Text } from "react-native";
-=======
-import Image from "react";
->>>>>>> 563b119cc564b378b1c5d7b6bc6179f5724c75ea
+import {View, StyleSheet, Text, Image } from "react-native";
 
 function StartUp() {
     return (
-        <View>
+        <View style={styles.container}>
             <Text>
                 
-                <Image source={require('../assets/lynx.png')} />
+                <Image source={require('../../assets/lynx.png')} />
                 
            </Text>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    position: 'absolute',
+    top: '40%',
+    left: '6%',
+  }
+
+});
 
 export default StartUp;
