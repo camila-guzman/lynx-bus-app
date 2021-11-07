@@ -1,12 +1,27 @@
 import React from "react";
-import {View, Text } from "react-native";
+import {View, StyleSheet, Text, Image} from "react-native";
 
-function Home(){
+
+
+function Home() {
     return (
-        <View>
-            <Text>Home Screen with Map</Text>
+        <View style={styles.container}>
+            <Text>
+                
+                <Image source={require('../../assets/map.png')} />
+           </Text>
         </View>
     );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    position: 'absolute',
+    top: '10%',
+    bottom: '10%',
+    left: '2%',
+    right: '2%',
+  }
+
+});
 export default Home;

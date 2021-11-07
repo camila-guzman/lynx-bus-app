@@ -18,6 +18,7 @@
     "expo-status-bar": "~1.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-iframe": "^1.8.0",
     "react-native": "0.64.2",
     "react-native-elements": "^3.4.2",
     "react-native-image": "^0.1.1",
