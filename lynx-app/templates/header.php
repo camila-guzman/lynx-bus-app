@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarsExample01">
         <ul class="navbar-nav me-auto mb-2">
           <li class="nav-item">
-            <a class="nav-link active"  href="../index.php">Home</a>
+            <a class="nav-link active"  href="../home.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="../routes.php">Routes</a>
