@@ -4,6 +4,47 @@
     <title>Lynx Bus App</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <!--stylesheet-->
-    <link rel="stylesheet" href="styles/main.css" />
+
+    
+  
+    
   </head>
   <body>
+
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active"  href="../index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../routes.php">Routes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../tripplanner.php">Trip Planner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  href="../buspasses.php">Bus Passes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Account.php">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../settings.php">Settings</a>
+          </li>
+        </ul>
+
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
