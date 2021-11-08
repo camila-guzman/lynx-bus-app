@@ -17,10 +17,7 @@ function Home() {
 const styles = StyleSheet.create({
   container: {
     position: 'absolute',
-    top: '10%',
-    bottom: '10%',
-    left: '2%',
-    right: '2%',
+    bottom: '1%',
   }
 
 });

@@ -1,12 +1,40 @@
 import React from "react";
-import {View, Text } from "react-native";
+import {View, Text, StyleSheet, Button } from "react-native";
 
-function BusPasses(){
+
+
+export default  function BusPasses(){
     return (
         <View>
-            <Text>Bus Passes Screen</Text>
+            
+            <Text style={styles.container}>
+            Active Passes
+             </Text>
+             <Text style={styles2.container}>
+            Time Left: 00:00:00 Remaining
+             </Text>
+            
+        
         </View>
+        
     );
 }
 
-export default BusPasses;
+const styles = StyleSheet.create({
+    container: {
+        color: 'black',
+        fontSize: 50,
+        left: '16%',
+        top: '2%',
+
+    }
+});
+const styles2 = StyleSheet.create({
+    container: {
+        color: 'red',
+        fontSize: 25,
+        left: '10%',
+        top: '4%',
+
+    }
+});
