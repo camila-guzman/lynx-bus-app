@@ -1,50 +1,60 @@
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />
-    <title>Lynx Bus App</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <!--stylesheet-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1.0" />
+  <title>Lynx Bus App</title>
+   
+  <!--stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
+  <link rel="stylesheet" href="./css/main.css" />
     
-  
-    
-  </head>
-  <body>
+</head>
+<body>
 
-  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
-    <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#"></a>
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-light bg-light" aria-label="First navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="search-icon">
+          <a href="./search.php" >
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </div>
+        <a class="navbar-brand" href="#"></a>
 
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link"  href="../home.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../routes.php">Routes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../tripplanner.php">Trip Planner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="../buspasses.php">Bus Passes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Account.php">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../settings.php">Settings</a>
+            </li>
+          </ul>
+          <form>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
 
-      <div class="collapse navbar-collapse" id="navbarsExample01">
-        <ul class="navbar-nav me-auto mb-2">
-          <li class="nav-item">
-            <a class="nav-link active"  href="../home.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../routes.php">Routes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../tripplanner.php">Trip Planner</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active"  href="../buspasses.php">Bus Passes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../Account.php">Account</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../settings.php">Settings</a>
-          </li>
-        </ul>
-
-        <form>
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
-      </div>
+      <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+        <a href="./home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#Icon_metro-home"/></svg>
+        </a>
+      </nav>
     </div>
   </nav>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  
