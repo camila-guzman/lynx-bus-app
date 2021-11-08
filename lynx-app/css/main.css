@@ -1,11 +1,5 @@
 /* custom styles go here */
 
-.search-icon {
-    position: fixed;
-    right: 0;
-    margin-right: 15px;
-}
-
 .search-icon i{
     color: black;
 }
