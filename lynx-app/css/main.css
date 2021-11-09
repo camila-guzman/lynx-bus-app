@@ -1,5 +1,33 @@
 /* custom styles go here */
 
-.search-icon i{
+/* spacing for bottom nav */
+body {
+    padding-bottom: 80px;
+}
+
+/*icons */
+.search-icon {
+    margin-left: auto;
+}
+
+i {
+    color: black;
+    margin-left: auto;
+}
+
+/* route stuff */
+.route-group {
+    width: 100%;
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+.route-detail-area {
+    background-color: gainsboro;
     color: black;
 }
+
+.inbound-label {
+    margin-right: 45px;
+}
+
