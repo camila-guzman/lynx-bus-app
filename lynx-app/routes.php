@@ -1,5 +1,7 @@
 <!--include head section and navbar-->
-<?php include('templates/header.php'); ?>
+<?php include('templates/header.php');
+include ('functions/functions.php');
+include ('functions/routelistfunction.php');?>
 
 <!--Insert Content Here-->
 <div class="container">
