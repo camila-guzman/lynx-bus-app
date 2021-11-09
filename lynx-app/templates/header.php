@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <div class="container-fluid p-0">
+  <div class="container-fluid">
     <nav class="navbar navbar-light bg-light" aria-label="First navbar example">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
