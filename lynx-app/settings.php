@@ -3,20 +3,21 @@
 
 <!--Insert Content Here-->
 <div>
-    <ul>
-<li>
+<h3>
+<ul>
+    
     <a href="/settings/language.php">Language</a>
-</li>
-<li>
-    <a href="/settings/accessibility.php">Accessibility</a>
-</li>
-<li>
-    <a href="/settings/paymentsettings.php">Payment Settings</a>
-</li>
-<li>
-    <a href="/settings/help.php">Help</a>
-</li>
 </ul>
+<ul>
+    <a href="/settings/accessibility.php">Accessibility</a>
+</ul>
+<ul>
+    <a href="/settings/paymentsettings.php">Payment Settings</a>
+</ul>
+<ul>
+    <a href="/settings/help.php">Help</a>
+</ul>
+</h3>
 </div>
 
 <!--include the footer with logo and hours-->
