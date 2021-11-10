@@ -1,5 +1,28 @@
 <?php
 
+// display stop list 
+function displayStops($link) {
+
+    global $connection;
+
+    // query select for routes list
+    $sql = "SELECT Stop FROM stops_list WHERE LinkNumber = $link ";
+
+    // run query
+    $result = mysqli_query($connection, $sql);
+
+    echo mysqli_error($connection);
+
+    if ($result === FALSE) {
+       echo "<p>FALSE</p>";
+       echo mysqli_error($sql);
+    }
+
+    while ($route = mysqli_fetch_assoc($result)){
+        echo "<p> stop: " . $route['Stop'] . "</p><br>";
+    }
+}
+
 // display routes list
 function displayRoutes(){
 
@@ -33,7 +56,8 @@ function displayRoutes(){
         <div class='d-flex justify-content-center align-items-star'>
         <label class='inbound-label'>Inbound</label>
         <input type='checkbox' class='custom-control-input' id='link" . $route['LinkNumber'] . "-toggle'><label class='custom-control-label' for='link" . $route['LinkNumber'] . "-toggle'>Outbound</label>
-        </div></div><p> this worked :'), need to work on getting the info to change on toggle</p></div></div></div>";
+        </div></div>"
+        . displayStops($route['LinkNumber']) . "</div></div></div>";
     }
 
     echo "</div>";
