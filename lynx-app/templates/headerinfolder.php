@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="../css/main.css" />
+  <link href="../assets/dist/js/form-validation.css" rel="stylesheet">
     
 </head>
 <body>
@@ -18,7 +19,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="search-icon">
-          <a href="./search.php" >
+          <a href="../search.php" >
             <i class="fas fa-search fa-2x"></i>
           </a>
         </div>
@@ -51,7 +52,7 @@
         </div>
 
       <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
-        <a href="./home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
+        <a href="../home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#Icon_metro-home"/></svg>
         </a>
       </nav>
