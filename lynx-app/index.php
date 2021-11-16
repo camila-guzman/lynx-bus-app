@@ -34,10 +34,10 @@
     
         <div class="checkbox mb-3">
           <label>
-            <input type="checkbox" value="remember-me"> Remember me
+            <input type="checkbox" value="remember-me"> Remember Me
           </label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
     
       </form>
      
@@ -45,7 +45,11 @@
 </br>
     
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+    
+    <form action="./home.php">
+    </br>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Continue As Guest</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-        
+  </form>
       </body>
 </html>
