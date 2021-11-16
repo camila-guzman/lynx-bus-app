@@ -1,6 +1,15 @@
 <!--include head section and navbar-->
 <?php include('../templates/headerinfolder.php'); ?>
-
+<style>
+    .btn-primary{
+        background-color: #d60c8c;
+        border-color: #d60c8c;
+    }
+    .btn-primary:hover{
+        background-color: #ce5ba4;
+        border-color: #ce5ba4;
+    }
+    </style>
 <!--Insert Content Here-->
 <div class="container py-3">
   <header>
@@ -26,7 +35,9 @@
               <li>Good for 1 Ride on the Lynx Bus System</li>
             
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Purchase Now</button>
+            <form action="./passcheckout.php">
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Purchase Now</button>
+  </form>
           </div>
         </div>
       </div>
@@ -41,7 +52,9 @@
               <li>Good for 1 Day Ride on the Lynx Bus System</li>
             
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Purchase Now</button>
+            <form action="./passcheckout.php">
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Purchase Now</button>
+  </form>
           </div>
         </div>
       </div>

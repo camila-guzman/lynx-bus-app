@@ -42,9 +42,15 @@
             <li class="nav-item">
               <a class="nav-link" href="../Account.php">Account</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../settings.php">Settings</a>
-            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="../../settings/language.php">Language</a></li>
+              <li><a class="dropdown-item" href="../../settings/accessibility.php">Accessibility</a></li>
+              <li><a class="dropdown-item" href="../../settings/paymentsettings.php">Payment Settings</a></li>
+              <li><a class="dropdown-item" href="../../settings/help.php">Help</a></li>
+            </ul>
+          </li>
           </ul>
           <form>
             <input class="form-control" type="text" placeholder="Search" aria-label="Search">
