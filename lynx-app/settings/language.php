@@ -2,7 +2,7 @@
 <?php include('../templates/headerinfolder.php'); ?>
 
 <!--Insert Content Here-->
-
+<div type="container-fluid">
 <h1> Languages </h1>
 <ul>
     

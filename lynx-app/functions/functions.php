@@ -8,7 +8,7 @@ function openDatabase()
     global $connection;
 
     // open connection to database
-    $connection = mysqli_connect("localhost", "root", "", "lynx-app");
+    $connection = mysqli_connect("localhost", "root", "", "jo889461");
 
     if (!$connection){
         echo "<p> not connecting</p>";

@@ -82,10 +82,11 @@ function displayRoutes(){
                 echo "<div id='collapse-outbound-" . $link . "' class='stops-list'><h5>Outbound</h5>";
                 while ($route = mysqli_fetch_assoc($result3)){
                     /** NOT WORKING? */
-                    $reverse = array_reverse($route, true);
-                    foreach ($reverse as $value){
-                        echo "<p>" . $value . "</p>";
-                    }
+                    $reverse = array_reverse($route);
+                    print_r($reverse);
+                    //foreach ($reverse as $value){
+                       // echo "<p>" . $value . "</p>";
+                   // }
                 }
 
                 echo "</div>
