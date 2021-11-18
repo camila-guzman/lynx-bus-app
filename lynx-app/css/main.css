@@ -2,13 +2,37 @@
 
   /* Button */
   .btn-primary{
-    background-color: #d60c8c;
-    border-color: #d60c8c;
+    background-color: #d60c8c !important;
+    border-color: #d60c8c !important;
 }
 .btn-primary:hover{
-    background-color: #ce5ba4;
-    border-color: #ce5ba4;
+    background-color: #ce5ba4 !important;
+    border-color: #ce5ba4 !important;
 }
+
+.filter-button a, .back-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.filter-button a:hover , .back-button a:hover {
+  text-decoration: none;
+  color: #ce5ba4;
+}
+
+.filter-button a, .back-button a {
+  border-bottom: 1px solid gray;
+}
+
+.filter-button a:hover, .back-button a:hover {
+  border-bottom: 1px solid #ce5ba4;
+}
+
+/* custom badges */
+.badge, .badge-primary {
+  padding: 10px !important;
+}
+
 /* spacing for bottom nav */
 body {
     padding-bottom: 80px;
