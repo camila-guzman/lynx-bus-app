@@ -50,7 +50,7 @@ include('./functions/functions.php')?>
             </div>
         </div>
         <div class="list-item d-flex form-group mb-0">
-            <p>University + Colleges</p>
+            <p>University and Colleges</p>
             <div class="custom-control custom-switch ml-auto d-flex">
                 <input type="checkbox" class="custom-control-input" id="filterSwitchUCFValencia">
                 <label class="custom-control-label" for="filterSwitchUCFValencia">On</label>
