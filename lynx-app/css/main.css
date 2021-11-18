@@ -1,5 +1,14 @@
 /* custom styles go here */
 
+  /* Button */
+  .btn-primary{
+    background-color: #d60c8c;
+    border-color: #d60c8c;
+}
+.btn-primary:hover{
+    background-color: #ce5ba4;
+    border-color: #ce5ba4;
+}
 /* spacing for bottom nav */
 body {
     padding-bottom: 80px;
@@ -100,12 +109,3 @@ i {
     border-radius: 50%;
   }
 
-  /* Button */
-.btn-primary{
-    background-color: #d60c8c;
-    border-color: #d60c8c;
-}
-.btn-primary:hover{
-    background-color: #ce5ba4;
-    border-color: #ce5ba4;
-}

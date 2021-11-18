@@ -1,7 +1,16 @@
 <!--include head section and navbar-->
 <?php include('templates/header.php'); ?>
 <!--Insert Content Here-->
-
+<style>
+    .btn-primary{
+        background-color: #d60c8c;
+        border-color: #d60c8c;
+    }
+    .btn-primary:hover{
+        background-color: #ce5ba4;
+        border-color: #ce5ba4;
+    }
+    </style>
 <header>   
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Active Passes</h1>

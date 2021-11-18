@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <!--include head section and navbar-->
-<?php include('../templates/header.php'); 
+<?php include('../templates/headerinfolder.php'); 
 include('../functions/functions.php');
 include('../functions/routelistfunction.php');
 
