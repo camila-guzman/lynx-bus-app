@@ -21,7 +21,7 @@
 </div>
     <main class="form-signin">
       <form action="/functions/formverification.php" method="post">
-        <img class="mb-4" src="../assets/images/lynx.png" alt="" >
+        <img class="mb-4" src="./assets/images/lynx.png" alt="" >
         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
     
         <div class="form-floating">

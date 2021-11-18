@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="col">
-          <form action="/buspasses/passview.php">
+          <form action="./buspasses/passview.php">
       <button type="submit" class="w-100 btn btn-lg btn-primary">Purchase Passes Now</button>
 </form>
       </div>

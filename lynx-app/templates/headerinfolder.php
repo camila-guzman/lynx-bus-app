@@ -40,7 +40,7 @@
               <a class="nav-link"  href="../buspasses.php">Bus Passes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Account.php">Account</a>
+              <a class="nav-link" href="../account.php">Account</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
