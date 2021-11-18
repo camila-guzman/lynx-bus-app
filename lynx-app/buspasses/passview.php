@@ -22,7 +22,7 @@
   </header>
 
   <main>
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
       
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
@@ -32,7 +32,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$2<small class="text-muted fw-light">Per Ride</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Good for 1 Ride on the Lynx Bus System</li>
+              <li>Good for 1 Single Ride on the Lynx Bus System</li>
             
             </ul>
             <form action="./passcheckout.php">

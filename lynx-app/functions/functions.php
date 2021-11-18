@@ -8,7 +8,7 @@ function openDatabase()
     global $connection;
 
     // open connection to database
-    $connection = mysqli_connect("localhost", "jo889461", "!31062501Jw", "jo889461");
+    $connection = mysqli_connect("localhost", "jo889461", "!Throwaway123", "jo889461");
 
     if (!$connection){
         echo "<p> not connecting</p>";
