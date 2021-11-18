@@ -2,10 +2,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width initial-scale=1.0" />
   <title>Lynx Bus App</title>
+  
    
   <!--stylesheet-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/main.css" />
     
 </head>
@@ -27,27 +28,27 @@
         <div class="collapse navbar-collapse" id="navbarsExample01">
           <ul class="navbar-nav me-auto mb-2">
             <li class="nav-item">
-              <a class="nav-link"  href="../home.php">Home</a>
+              <a class="nav-link"  href="./home.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../routes.php">Routes</a>
+              <a class="nav-link" href="./routes.php">Routes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../tripplanner.php">Trip Planner</a>
+              <a class="nav-link" href="./tripplanner.php">Trip Planner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="../buspasses.php">Bus Passes</a>
+              <a class="nav-link"  href="./buspasses.php">Bus Passes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Account.php">Account</a>
+              <a class="nav-link" href="./account.php">Account</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown01">
-              <li><a class="dropdown-item" href="../settings/language.php">Language</a></li>
-              <li><a class="dropdown-item" href="../settings/accessibility.php">Accessibility</a></li>
-              <li><a class="dropdown-item" href="../settings/paymentsettings.php">Payment Settings</a></li>
-              <li><a class="dropdown-item" href="../settings/help.php">Help</a></li>
+              <li><a class="dropdown-item" href="./settings/language.php">Language</a></li>
+              <li><a class="dropdown-item" href="./settings/accessibility.php">Accessibility</a></li>
+              <li><a class="dropdown-item" href="./settings/paymentsettings.php">Payment Settings</a></li>
+              <li><a class="dropdown-item" href="./settings/help.php">Help</a></li>
             </ul>
           </li>
           </ul>
@@ -63,4 +64,4 @@
       </nav>
     </div>
   </nav>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+ 
