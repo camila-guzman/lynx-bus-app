@@ -18,7 +18,7 @@ include ('functions/routelistfunction.php');?>
     
     openDatabase();
     
-    displayRoutes();
+    displayRouteList();
     
     closeDatabase();
     ?>
