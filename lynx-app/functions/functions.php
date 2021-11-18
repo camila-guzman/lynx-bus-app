@@ -24,3 +24,10 @@ function closeDatabase()
     // close connection
     mysqli_close($connection);
 }
+
+// display button
+function displayBackButton($previousPage){
+    echo "<div class='back-button d-inline-flex align-items-center mt-2'>
+        <i class='fas fa-arrow-left mr-2'></i><a href='" . $previousPage . "'>Back</a>
+    </div>";
+}
