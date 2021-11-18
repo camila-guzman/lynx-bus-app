@@ -15,13 +15,20 @@ i {
     margin-left: auto;
 }
 
-/* route stuff */
-.route-group {
+/* List items */
+.route-group, .filter, .list-item {
     width: 100%;
     padding-top: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
+.last-list-item {
+  width: 100%;
+  padding-top: 15px;
+  border: none;
+}
+
+/* route stuff */
 .route-detail-area {
     background-color: gainsboro;
     color: black;
@@ -92,3 +99,13 @@ i {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  /* Button */
+.btn-primary{
+    background-color: #d60c8c;
+    border-color: #d60c8c;
+}
+.btn-primary:hover{
+    background-color: #ce5ba4;
+    border-color: #ce5ba4;
+}
