@@ -63,7 +63,9 @@ function displayBadgesFilters($filter){
 
     global $arrayFiltersBadges;
 
-    echo "<span class='badge badge-primary mr-2 my-2'>" . $filter . "</span>";  
+    $index = array_search($filter, array_column($arrayFiltersBadges, 0));
+
+    echo "<span class='badge badge-primary mr-2 my-2'>" . $arrayFiltersBadges[$index][1] . "</span>";  
 
 }
 
