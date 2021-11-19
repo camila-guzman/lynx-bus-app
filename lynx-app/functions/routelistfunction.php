@@ -1,5 +1,25 @@
 <?php
 
+function displayDetailsPageHeader($connection, $link){
+
+    // query select for routes list
+    $sqlLinkHeader = "SELECT * FROM routes_list WHERE LinkNumber = $link";
+
+    // run query
+    $linkHeaderResult = mysqli_query($connection, $sqlLinkHeader);
+
+    if ($linkHeaderResult === FALSE) {
+        echo "<p>FALSE</p>";
+        echo mysqli_error($sqlLinkHeader);
+    }
+    while ($linkHeader = mysqli_fetch_assoc($linkHeaderResult)){
+        $link = $linkHeader['LinkNumber'];
+        $name = $linkHeader['Name'];
+
+        echo "<h2>Link&nbsp" . $link . "</h2><h3>" . $name . "</h3>";
+    }
+}
+
 function displayBadges($connection, $link){
 
     $sqlBadges = "SELECT * FROM filters WHERE LinkNumber = $link";
