@@ -10,27 +10,30 @@
     border-color: #ce5ba4 !important;
 }
 
-.filter-button a, .back-button a {
-  text-decoration: none;
-  color: black;
-}
-
-.filter-button a:hover , .back-button a:hover {
+.collapse-button, .filter-button a, .back-button a {
   text-decoration: none;
   color: #ce5ba4;
-}
-
-.filter-button a, .back-button a {
-  border-bottom: 1px solid gray;
-}
-
-.filter-button a:hover, .back-button a:hover {
   border-bottom: 1px solid #ce5ba4;
+}
+
+.collapse-button:hover, .filter-button a:hover , .back-button a:hover {
+  text-decoration: none;
+  color: #ce5ba4;
+  border-bottom: 1px solid #ce5ba4;
+}
+
+/* table */
+.table td, .table th {
+  border: 1px solid #343a40 !important;
+
 }
 
 /* custom badges */
 .badge, .badge-primary {
   padding: 10px !important;
+  background-color: #fff !important;
+  border: 1px solid black;
+  color: black !important;
 }
 
 /* spacing for bottom nav */
