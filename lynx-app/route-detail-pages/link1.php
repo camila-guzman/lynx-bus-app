@@ -93,7 +93,6 @@ closeDatabase();
             <td>6:20am - 9:56pm</td>
             <td>Altamonte Mall</td>
             <td>Winter Park SunRail</td>
-            <td>6:20am - 9:56pm</td>
         </tr>
         <tr>
             <th scope="row">Saturday</th>
