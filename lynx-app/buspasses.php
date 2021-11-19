@@ -1,5 +1,9 @@
 <!--include head section and navbar-->
-<?php include('templates/header.php'); ?>
+<?php 
+include('templates/header.php');
+include('./functions/buspassfunciton.php');
+?>
+
 <!--Insert Content Here-->
 <style>
     .btn-primary{
@@ -27,7 +31,7 @@
             <h4 class="my-0 fw-normal">Single Ride Passes</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">x<!-- Add function to count passes --><small class="text-muted fw-light">Passes Remaining</small></h1>
+            <h1 class="card-title pricing-card-title"><?php echo "$singleride" ?><small class="text-muted fw-light">Passes Remaining</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Once Redeemed No Refunds</li>
             

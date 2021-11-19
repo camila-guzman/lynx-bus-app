@@ -3,7 +3,7 @@
 
 <!--Insert Content Here-->
 <?php
-        if (isset($_COOKIE["loggedin"])) {
+        if (isset($_SESSION["loggedin"])) {
             include 'loggedinpaysettings.php';
         } else { 
             include 'loggedoutpaysettings.php';
