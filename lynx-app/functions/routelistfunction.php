@@ -84,10 +84,10 @@ function displayStops($connection, $link){
     }
 
     // printing inbound stops
-    echo "<div id='collapse-inbound-" . $link . "' class='stop-list collapse'>
-    <h5>Inbound</h5><ul>";
+    echo "<div id='collapse-inbound-" . $link . "' class='stop-list collapse mt-2'>
+    <h5>Inbound</h5><ul class='list-group'>";
     while ($inboundStops = mysqli_fetch_assoc($inboundResult)){
-        echo "<li class='mb-2'>" . $inboundStops['Name'] . "</li>";
+        echo "<li class='list-group-item'>" . $inboundStops['Name'] . "</li>";
     }
     echo "</ul></div>";
 
@@ -103,10 +103,10 @@ function displayStops($connection, $link){
     }
 
     // printing inbound stops
-    echo "<div id='collapse-outbound-" . $link . "' class='stop-list collapse'>
-        <h5>Outbound</h5><ul>";
+    echo "<div id='collapse-outbound-" . $link . "' class='stop-list collapse mt-2'>
+        <h5>Outbound</h5><ul class='list-group'>";
         while ($outboundStops = mysqli_fetch_array($outboundResult)){
-            echo "<li class='mb-2'>" . $outboundStops['Name'] . "</li>";
+            echo "<li class='list-group-item'>" . $outboundStops['Name'] . "</li>";
         }
         echo "</ul></div></div>";
 
@@ -144,8 +144,12 @@ function displayRouteList(){
         // display link number, name, and arrow with link
         echo "<b>Link&nbsp;" . $link . ":&nbsp;</b><p>" . $route_name . "</p>"; 
 
-        // link with arrow
+        /* link with arrow
         echo "<a href='./route-detail-pages/link" . $link . ".php' class='ml-auto'><i class='fas fa-arrow-right fa-lg pr-2'></i></a></div>";
+        */
+
+        // link with dropdown icon
+        echo "<a href='./route-detail-pages/link" . $link . ".php' class='ml-auto'><i class='fas fa-sort-down pr-2'></i></a></div>";
 
         // display route details collapsible section
         echo "<div class='route-details collapse ml-5' id='route-" . $link . "-collapseDetails'>";
@@ -159,6 +163,9 @@ function displayRouteList(){
             displayStops($connection, $link);
 
             echo "<a class='route-detail-button btn btn-primary mb-4' href='./route-detail-pages/link" . $link . ".php'>View Route Details</a>";
+
+            /*arrow style 
+            echo "<div class='d-flex justify-content-end align-items-baseline'><a class='mb-4 view-route-details' href='./route-detail-pages/link" . $link . ".php'>View Route Details</a><i class='fas fa-arrow-right fa-lg pr-2 ml-2'></i></div>"; */
   
         echo "</div>
     </div>";
