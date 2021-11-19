@@ -10,22 +10,20 @@
             if (!$connection){
                 echo "<p> not connecting</p>";
             }
-            $username = $_SESSION['username'];
-            $sql = "SELECT * FROM users WHERE username = $username";
-            $result = mysql_query($connection, $sql);
-            echo mysqli_error($connection);
-            if($result === FALSE){
-                echo "<p>FALSE</p>";
-                echo mysqli_error($sql);
+            $_SESSION["username"] = $usernamevar;  
+            echo "i got to here"; 
+           
+            $sql = sprintf("SELECT username, firstname, lastname, password FROM users WHERE username = $usernamevar");
+            $result = mysqli_query($sql);
+            echo "i got to here as well";
+
+            while ($row = mysql_fetch_assoc($result)) {
+                echo $row['username'];
+                echo $row['firstname'];
+                echo $row['lastname'];
+                echo $row['password'];
             }
-            while ($users = mysqli_fetch_assoc($result)){
-                // helper variables
-                $username = $users['username'];
-                $firstname = $users['firstname'];
-                $lastname = $users['lastname'];
-                $password = $users['password'];
-                echo  "<h3>" . $username . "</h3><h3>". $firstname . "</h3><h3>". $lastname . "</h3><h3>". $password; "</h3>"
-            }
+            echo "wow here to huh";
             global $connection;
         // close connection
         mysqli_close($connection);
