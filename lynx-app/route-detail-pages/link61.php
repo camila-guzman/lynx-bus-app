@@ -1,5 +1,11 @@
 <!--include head section and navbar-->
-<?php include('../templates/headerinfolder.php'); 
+<?php
+session_start();
+if (isset($_SESSION["loggedin"])) {
+            include '../templates/headerinfolderloggedin.php';
+        } else { 
+            include '../templates/headerinfolderloggedout.php';
+        }
 include('../functions/functions.php');
 include('../functions/routelistfunction.php');
 

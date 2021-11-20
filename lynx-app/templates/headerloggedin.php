@@ -54,10 +54,10 @@ session_start();
               <li><a class="dropdown-item" href="./settings/help.php">Help</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./logout.php">Log Out</a>
+            </li>
           </ul>
-          <form>
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-          </form>
         </div>
 
       <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">

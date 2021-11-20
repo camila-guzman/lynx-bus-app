@@ -1,4 +1,12 @@
+
 <?php
+session_start();
+if (isset($_SESSION["loggedin"])) {
+            include './templates/headerloggedin.php';
+        } else { 
+            include './templates/headerloggedout.php';
+        }
+        
 // Include config file
 include('./functions/functions.php');
 

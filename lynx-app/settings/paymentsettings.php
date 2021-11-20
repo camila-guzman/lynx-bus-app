@@ -1,5 +1,12 @@
 <!--include head section and navbar-->
-<?php include('../templates/headerinfolder.php'); ?>
+<?php
+session_start();
+if (isset($_SESSION["loggedin"])) {
+            include '../templates/headerinfolderloggedin.php';
+        } else { 
+            include '../templates/headerinfolderloggedout.php';
+        }
+        ?>
 
 <!--Insert Content Here-->
 <?php

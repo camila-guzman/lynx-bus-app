@@ -5,12 +5,12 @@ session_start();
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width initial-scale=1.0" />
   <title>Lynx Bus App</title>
+  
    
   <!--stylesheet-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/main.css" />
-  <link href="../assets/dist/js/form-validation.js" rel="stylesheet">
     
 </head>
 <body>
@@ -22,7 +22,7 @@ session_start();
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="search-icon">
-          <a href="../search.php" >
+          <a href="./search.php" >
             <i class="fas fa-search fa-2x"></i>
           </a>
         </div>
@@ -54,16 +54,17 @@ session_start();
               <li><a class="dropdown-item" href="../settings/help.php">Help</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../signup.php">Sign Up</a>
+            </li>
           </ul>
-          <form>
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-          </form>
         </div>
 
       <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
-        <a href="../home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
+        <a href="./home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#Icon_metro-home"/></svg>
         </a>
       </nav>
     </div>
   </nav>
+ 
