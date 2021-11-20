@@ -13,25 +13,25 @@ if (isset($_SESSION["loggedin"])) {
 
 <!--Insert Content Here-->
 <div type="container-fluid">
-<h1> Languages </h1>
+<h2> Accessibility </h2>
 <h4> Work In Progress</h4>
 <ul>
     
-<h3>Larger Font</h3>
+<h4>Larger Font</h4>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
 </ul>
 <ul>
-<h3>Text To Speech</h3>
+<h4>Text To Speech</h4>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
 </ul>
 <ul>
-<h3>Dark Mode</h3>
+<h4>Dark Mode</h4>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
