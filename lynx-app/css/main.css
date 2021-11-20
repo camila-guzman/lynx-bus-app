@@ -1,3 +1,20 @@
+/* Text styles */
+@font-face {
+  font-family: agenda, sans-serif;
+  src: url(https://use.typekit.net/idc4veq.css);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: agenda, sans-serif;
+  src: url(https://use.typekit.net/idc4veq.css);
+  font-weight: bold;
+}
+
+* {
+  font-family: agenda;
+}
+
 /* custom styles go here */
 
   /* Button */
