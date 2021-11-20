@@ -33,7 +33,7 @@ if (isset($_POST['submit'])){
 <h1 class="display-4 my-2">Trip Planner</h1>
 <p>Work in progress</p>
 
-<form class="trip-planner-form mt-4" method="post" action="tripplanner.php">
+<form class="trip-planner-form mt-4" method="post" action="home.php">
   <div class="form-group">
     <label for="inputStartLocation">Start</label>
     <span class="error ml-2" >* <?php echo $startError;?></span>
