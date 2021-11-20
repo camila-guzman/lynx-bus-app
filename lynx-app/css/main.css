@@ -29,7 +29,7 @@
 }
 
 /* forms */
-.trip-planner-form label, .sign-up-form label  {
+.trip-planner-form label, .sign-up-form label, .log-in-form label   {
   font-size: 2rem !important;
 }
 
