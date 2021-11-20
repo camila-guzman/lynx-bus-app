@@ -15,22 +15,29 @@
             else {
                 $username = $_SESSION['username'];
                 echo $username;
-            $sql = "SELECT id, username, firstname, lastname, password FROM users WHERE username = $username";
+            $sql = "SELECT id, username, firstname, lastname, password FROM users WHERE username = '$username'";
 
             $result = mysqli_query($connection, $sql);
             if ($result === FALSE) {
                 echo "<p>FALSE</p>";
-                echo mysqli_error($connection);
+                echo mysqli_error($result);
+            }else{
+
+                while ($finishedmaybe = mysqli_fetch_assoc($result)){
+                    $id = $finishedmaybe['id'];
+                    $username1 = $finishedmaybe['username'];
+                    $firstname = $finishedmaybe['firstname'];
+                    $lastname = $finishedmaybe['lastname'];
+                    $password = $finishedmaybe['password'];
+                     echo $username1;
+                     echo $firstname;
+                     echo $lastname;
+                     echo $password;
+                     echo $id;
+            
+                }
             }
-            while ($finishedmaybe = mysqli_fetch_assoc($result)){
-                $id = $finishedmaybe['id'];
-                $username1 = $finishedmaybe['username'];
-                $firstname = $finishedmaybe['firstname'];
-                $lastname = $finishedmaybe['lastname'];
-                $password = $finishedmaybe['password'];
-                 echo $id;
-        
-            }
+          
 
             }
            
