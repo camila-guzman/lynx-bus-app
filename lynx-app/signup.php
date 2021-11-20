@@ -156,5 +156,6 @@ include('templates/header.php'); ?>
             <p>Already have an account? <a href="./index.php" class="login-a">Login here</a>.</p>
         </form>
     </div>    
-</body>
-</html>
+
+<!--include the footer-->
+<?php include('templates/footer.php'); ?>
