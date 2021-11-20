@@ -89,59 +89,37 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Close connection
     mysqli_close($connection);
 }
+include('templates/header.php');
 ?>
 
-<!DOCTYPE html>
-<html>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/main.css" />
-<style>
-    .spacer{
-        height: 300px;
-    }
-    .btn-primary{
-        background-color: #d60c8c;
-        border-color: #d60c8c;
-    }
-    .btn-primary:hover{
-        background-color: #ce5ba4;
-        border-color: #ce5ba4;
-    }
-    </style>
-<body class="text-center">
-    <div class="spacer">
-</div>
+<img class="my-4 mx-auto d-block" src="./assets/images/lynx.png" alt="" >
+<h1 class="display-4 my-2">Log in</h1>
+<p>Please fill in your credentials to login.</p>
 
 
-<div class="wrapper">
-<img class="mb-4" src="./assets/images/lynx.png" alt="" >
-        <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p>
-
-
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group">
-                <label>Username</label>
-                <input type="text" name="username" class="form-control ">
-            </div>    
-            <div class="form-group">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control">
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
-            </div>
-        </form>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="log-in-form">
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" name="username" class="form-control ">
+    </div>    
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" class="form-control">
     </div>
+    <div class="form-group">
+        <input type="submit" class="w-100 btn btn-lg btn-primary" value="Login">
+    </div>
+</form>
+
 </br>
-    <form action="./signup.php">
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+<form action="./signup.php">
+    <button class="btn btn-primary" type="submit">Sign Up</button>
     </form>
     <form action="./home.php">
     </br>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Continue As Guest</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-  </form>
-  </body>
-  </html>
+    <button class="btn btn-light" type="submit">Continue As Guest</button>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; 2017–2021</p>
+</form>
+
+<!--include the footer-->
+<?php include('templates/footer.php'); ?>
