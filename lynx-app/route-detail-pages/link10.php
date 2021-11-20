@@ -11,7 +11,7 @@ include('../functions/routelistfunction.php');
 
 ?>
 
-<p>These pages are placeholders</p>
+<p>Route 9 detail example</p>
 
 <!--include the footer-->
 <?php include('../templates/footer.php'); ?>

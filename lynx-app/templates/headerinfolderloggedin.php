@@ -64,7 +64,7 @@ session_start();
         </div>
 
       <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
-        <a href="./home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
+        <a href="../home.php" class="d-flex my-3 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#Icon_metro-home"/></svg>
         </a>
       </nav>

@@ -99,7 +99,7 @@ if (isset($_SESSION["loggedin"])) {
 ?>
 
 <img class="my-4 mx-auto d-block" src="./assets/images/lynx.png" alt="" >
-<h1 class="display-4 my-2">Log in</h1>
+<h1 class="display-4 my-2">Login</h1>
 <p>Please fill in your credentials to login.</p>
 
 

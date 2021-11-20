@@ -15,11 +15,16 @@ include ('functions/routelistfunction.php');?>
 <!--Insert Content Here-->
 <div class="d-flex align-items-baseline justify-content-between">
     <h1 class="display-4 flex-grow my-2">Routes</h1>
+    </br>
+    
     <div class="filter-button d-inline-flex align-items-center">
+    
         <!--<i class="fas fa-filter"></i>-->
         <a data-toggle="collapse" href="#collapseFilters" role="button" aria-expanded="false" aria-controls="collapseExample">
         <ion-icon name="options-outline" class="mr-2"></ion-icon>Filters</a>
+       
     </div>
+    
 </div>
 
 <form action="" method="post">
@@ -123,6 +128,7 @@ include ('functions/routelistfunction.php');?>
     
     openDatabase();
     
+    echo "<p> Only routes 1, 3, 6, 7, 8 have actual Route Detail pages. </p>";
     displayRouteList();
     
     closeDatabase();
