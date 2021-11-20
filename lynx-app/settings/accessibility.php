@@ -12,31 +12,32 @@ if (isset($_SESSION["loggedin"])) {
   </style>
 
 <!--Insert Content Here-->
-<div type="container-fluid">
-<h1> Languages </h1>
-<h4> Work In Progress</h4>
-<ul>
-    
+<h1 class="display-4 my-2">Accessibility Settings</h1>
+
+<div style="padding: 40px;">
+<div class="d-flex justify-content-between mb-2">
 <h3>Larger Font</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
-<ul>
+</div>
+
+<div class="d-flex justify-content-between mb-2">
 <h3>Text To Speech</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
-<ul>
+</div>
+
+<div class="d-flex justify-content-between mb-2">
 <h3>Dark Mode</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
+</div>
 </div>
 
 <!--include the footer with logo and hours-->
