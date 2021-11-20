@@ -1,6 +1,6 @@
 <?php
-$singleride = 0;
-$dayride = 0;
+$singleride = 10;
+$dayride = 10;
 
 
 ?>

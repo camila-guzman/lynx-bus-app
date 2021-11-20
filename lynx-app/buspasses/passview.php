@@ -36,12 +36,12 @@ if (isset($_SESSION["loggedin"])) {
             <h4 class="my-0 fw-normal">Single Ride</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$2<small class="text-muted fw-light">Per Ride</small></h1>
+            <h1 class="card-title pricing-card-title">$2&nbsp<small class="text-muted fw-light">Per Ride</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Good for 1 Single Ride on the Lynx Bus System</li>
             
             </ul>
-            <form action="./passcheckout.php">
+            <form action="./passcheckoutsingleride.php">
             <button type="submit" class="w-100 btn btn-lg btn-primary">Purchase Now</button>
   </form>
           </div>
@@ -53,12 +53,12 @@ if (isset($_SESSION["loggedin"])) {
             <h4 class="my-0 fw-normal">Day Ride</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$5<small class="text-muted fw-light">Per Day</small></h1>
+            <h1 class="card-title pricing-card-title">$5&nbsp<small class="text-muted fw-light">Per Day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Good for 1 Day Ride on the Lynx Bus System</li>
             
             </ul>
-            <form action="./passcheckout.php">
+            <form action="./passcheckoutdayride.php">
             <button type="submit" class="w-100 btn btn-lg btn-primary">Purchase Now</button>
   </form>
           </div>

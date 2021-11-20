@@ -7,7 +7,7 @@ if (isset($_SESSION["loggedin"])) {
             include './templates/headerloggedout.php';
         }
         
-include('./functions/buspassfunciton.php');
+include('./functions/buspassfunction.php');
 ?>
 
 <!--Insert Content Here-->
@@ -37,7 +37,7 @@ include('./functions/buspassfunciton.php');
             <h4 class="my-0 fw-normal">Single Ride Passes</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title"><?php echo "$singleride" ?><small class="text-muted fw-light">Passes Remaining</small></h1>
+            <h1 class="card-title pricing-card-title"><?php print($singleride); ?>&nbsp<small class="text-muted fw-light">Passes Remaining</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Once Redeemed No Refunds</li>
             
@@ -52,9 +52,9 @@ include('./functions/buspassfunciton.php');
             <h4 class="my-0 fw-normal">Day Ride Passes</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">x<!-- Add function to count passes --><small class="text-muted fw-light">Passes Remaining</small></h1>
+            <h1 class="card-title pricing-card-title"><?php print($dayride); ?>&nbsp<!-- Add function to count passes --><small class="text-muted fw-light">Passes Remaining</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Time Remaining xx.xx.xx On Pass <!-- Add countdown timer  --> </li>
+              <li>Time Remaining 11.24.58 On Pass <!-- Add countdown timer  --> </li>
             
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-primary">Redeem Now</button>

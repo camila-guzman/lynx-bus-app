@@ -32,10 +32,10 @@ if (isset($_SESSION["loggedin"])) {
         <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">x Pass Name </h6>
-              <small class="text-muted">x pass description</small>
+              <h6 class="my-0">Single Ride Pass</h6>
+              <small class="text-muted">1 Single Ride Admission</small>
             </div>
-            <span class="text-muted">x price</span>
+            <span class="text-muted">2$</span>
           </li>
         </ul>
       </div>

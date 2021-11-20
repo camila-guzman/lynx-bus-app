@@ -19,7 +19,7 @@ Adding a Search Function to navigate pages and settings <br/>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body py-0">
-        <p>Eventually Something like this can be topggled over every page to show oyu how erach interaction works like a tutorial.</p>
+        <p>Eventually Something like this can be toggled over every page to show oyu how erach interaction works like a tutorial.</p>
       </div>
       <div class="modal-footer flex-column border-top-0">
         <button type="button" class="btn btn-lg btn-primary w-100 mx-0 mb-2">Next Page</button>

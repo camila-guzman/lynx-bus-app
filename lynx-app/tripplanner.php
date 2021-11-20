@@ -7,7 +7,7 @@ if (isset($_SESSION["loggedin"])) {
             include './templates/headerloggedout.php';
         }
         ?>
-
+<?php
 $start = $end = $extraStop = "";
 $startError = $endError = "";
 
