@@ -47,7 +47,7 @@
 
    
         <h4 class="font-weight-bold py-3 mb-4">
-      Account Information
+      <h1 class="display-4 my-2">Account Information</h1>
     </h4>
     <div class="card overflow-hidden">
         
