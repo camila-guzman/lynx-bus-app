@@ -89,7 +89,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Close connection
     mysqli_close($connection);
 }
-include('templates/header.php');
+
+if (isset($_SESSION["loggedin"])) {
+            include './templates/headerloggedin.php';
+        } else { 
+            include './templates/headerloggedout.php';
+        }
+        
 ?>
 
 <img class="my-4 mx-auto d-block" src="./assets/images/lynx.png" alt="" >
