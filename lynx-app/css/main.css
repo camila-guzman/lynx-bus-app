@@ -140,11 +140,11 @@ i {
   }
   
   input:checked + .slider {
-    background-color: #f321f3;
+    background-color: #d60c8c;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #f321b4;
+    box-shadow: 0 0 1px #d60c8c;
   }
   
   input:checked + .slider:before {
@@ -162,3 +162,8 @@ i {
     border-radius: 50%;
   }
 
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #d60c8c !important;
+    background-color: #d60c8c !important;
+}

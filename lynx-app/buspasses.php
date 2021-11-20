@@ -42,7 +42,9 @@ include('./functions/buspassfunction.php');
               <li>Once Redeemed No Refunds</li>
             
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Redeem Now</button>
+            <form action="./home.php">
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Redeem Now</button>
+            </form>
           </div>
         </div>
       </div>
@@ -57,7 +59,9 @@ include('./functions/buspassfunction.php');
               <li>Time Remaining 11.24.58 On Pass <!-- Add countdown timer  --> </li>
             
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Redeem Now</button>
+            <form action="./home.php">
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Redeem Now</button>
+            </form>
           </div>
         </div>
       </div>
