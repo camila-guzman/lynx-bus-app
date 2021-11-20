@@ -10,13 +10,13 @@
     border-color: #ce5ba4 !important;
 }
 
-.collapse-button, .filter-button a, .back-button a {
+.add-stop-button, .collapse-button, .filter-button a, .back-button a {
   text-decoration: none;
   color: #ce5ba4;
   border-bottom: 1px solid #ce5ba4;
 }
 
-.collapse-button:hover, .filter-button a:hover , .back-button a:hover {
+.add-stop-button:hover, .collapse-button:hover, .filter-button a:hover , .back-button a:hover {
   text-decoration: none;
   color: #ce5ba4;
   border-bottom: 1px solid #ce5ba4;
@@ -26,6 +26,11 @@
 .table td, .table th {
   border: 1px solid #343a40 !important;
 
+}
+
+/* forms */
+.trip-planner-form label {
+  font-size: 2rem !important;
 }
 
 /* custom badges */
@@ -49,6 +54,10 @@ body {
 i {
     color: black;
     margin-left: auto;
+}
+
+.add-stop-i {
+  color: white !important;
 }
 
 /* List items */
