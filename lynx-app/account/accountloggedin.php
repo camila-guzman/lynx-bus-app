@@ -1,6 +1,5 @@
 <div class = "container">
         <div class ="col">
-            <h1> Account </h2>
         </div>
         <div class = "col">
             <?php
@@ -14,7 +13,6 @@
             }
             else {
                 $username = $_SESSION['username'];
-                echo $username;
             $sql = "SELECT id, username, firstname, lastname, password FROM users WHERE username = '$username'";
 
             $result = mysqli_query($connection, $sql);
@@ -29,11 +27,7 @@
                     $firstname = $finishedmaybe['firstname'];
                     $lastname = $finishedmaybe['lastname'];
                     $password = $finishedmaybe['password'];
-                     echo $username1;
-                     echo $firstname;
-                     echo $lastname;
-                     echo $password;
-                     echo $id;
+                
             
                 }
             }
@@ -41,10 +35,67 @@
 
             }
            
-            echo "wow here to huh";
             global $connection;
         // close connection
         mysqli_close($connection);
             ?>
         </div>  
+
+        <div class="container light-style flex-grow-1 container-p-y">
+
+   
+        <h4 class="font-weight-bold py-3 mb-4">
+      Account Information
+    </h4>
+    <div class="card overflow-hidden">
+        
+      <div class="row no-gutters row-bordered row-border-light">
+    
+        <div class="col-md-9">
+          <div class="tab-content">
+            <div class="tab-pane fade active show" id="account-general">
+
+              <hr class="border-light m-0">
+
+              <div class="card-body">
+                <div class="form-group">
+                  <label class="form-label">Username</label>
+                  <input type="text" class="form-control mb-1" value="<?php echo $username1;?>" readonly>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">First Name</label>
+                  <input type="text" class="form-control" value="<?php echo $firstname;?>">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Last Name</label>
+                  <input type="text" class="form-control mb-1" value="<?php echo $lastname;?>">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Current password</label>
+                  <input type="password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">New password</label>
+                  <input type="password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Repeat new password</label>
+                  <input type="password" class="form-control">
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-right mt-3">
+      <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
+      <button type="button" class="btn btn-default">Cancel</button>
+    </div>
+
+  </div>
     </div>
