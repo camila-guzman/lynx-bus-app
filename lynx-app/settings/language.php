@@ -9,45 +9,44 @@ if (isset($_SESSION["loggedin"])) {
         ?>
 
 <!--Insert Content Here-->
-<div type="container-fluid">
-<h2> Languages </h2>
-<h4> Work In Progress</h4>
-<ul>
-    
-<h4>English</h4>
+<h1 class="display-4 my-2">Language Settings</h1>
+
+<div style="padding: 40px;">
+<div class="d-flex justify-content-between mb-2">
+<h3>English</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
-<ul>
-<h4>Spanish</h4>
+</div>
+<div class="d-flex justify-content-between mb-2">
+<h3>Spanish</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
-<ul>
-<h4>Creole</h4>
+</div>
+<div class="d-flex justify-content-between mb-2">
+<h3>Creole</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
-<ul>
-<h4>Portugese</h4>
+</div>
+<div class="d-flex justify-content-between mb-2">
+<h3>Portugese</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
-<ul>
-<h4>Arabic</h4>
+</div>
+<div class="d-flex justify-content-between mb-2">
+<h3>Arabic</h3>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-</ul>
+</div>
 </div>
 <!--include the footer with logo and hours-->
 <?php include('../templates/footer.php'); ?>
