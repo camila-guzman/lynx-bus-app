@@ -123,7 +123,7 @@ if (isset($_SESSION["loggedin"])) {
     </form>
     <form action="./home.php">
     </br>
-    <button class="btn btn-light" type="submit">Continue As Guest</button>
+    <button class="btn btn-secondary" type="submit">Continue As Guest</button>
       <p class="mt-5 mb-3 text-muted text-center">&copy; 2017–2021</p>
 </form>
 
