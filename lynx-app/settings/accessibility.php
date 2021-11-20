@@ -16,7 +16,7 @@ if (isset($_SESSION["loggedin"])) {
 
 <div style="padding: 40px;">
 <div class="d-flex justify-content-between mb-2">
-<h3>Larger Font</h3>
+<p>Larger Font</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
@@ -24,7 +24,7 @@ if (isset($_SESSION["loggedin"])) {
 </div>
 
 <div class="d-flex justify-content-between mb-2">
-<h3>Text To Speech</h3>
+<p>Text To Speech</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
@@ -32,7 +32,7 @@ if (isset($_SESSION["loggedin"])) {
 </div>
 
 <div class="d-flex justify-content-between mb-2">
-<h3>Dark Mode</h3>
+<p>Dark Mode</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>

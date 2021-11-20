@@ -13,35 +13,35 @@ if (isset($_SESSION["loggedin"])) {
 
 <div style="padding: 40px;">
 <div class="d-flex justify-content-between mb-2">
-<h3>English</h3>
+<p>English</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
 </div>
 <div class="d-flex justify-content-between mb-2">
-<h3>Spanish</h3>
+<p>Spanish</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
 </div>
 <div class="d-flex justify-content-between mb-2">
-<h3>Creole</h3>
+<p>Creole</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
 </div>
 <div class="d-flex justify-content-between mb-2">
-<h3>Portugese</h3>
+<p>Portugese</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
 </div>
 <div class="d-flex justify-content-between mb-2">
-<h3>Arabic</h3>
+<p>Arabic</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
