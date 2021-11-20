@@ -124,23 +124,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Close connection
     mysqli_close($connection);
 }
-?>
- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body{ font: 14px sans-serif; display: flex; }
-    </style>
-</head>
-<body>
-    <div class="wrapper">
-        <h2>Sign Up</h2>
+include('templates/header.php'); ?>
+
+        <h1 class="display-4 my-2">Sign Up</h1>
         <p>Please fill this form to create an account.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="sign-up-form">
             <div class="form-group">
                 <label>Username</label>
                 <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
@@ -162,10 +150,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
-                <input type="reset" class="btn btn-secondary ml-2" value="Reset">
+                <input type="submit" class="w-100 btn btn-lg btn-primary" value="Submit">
+                <input type="reset" class="btn btn-secondary mt-4" value="Reset">
             </div>
-            <p>Already have an account? <a href="./index.php">Login here</a>.</p>
+            <p>Already have an account? <a href="./index.php" class="login-a">Login here</a>.</p>
         </form>
     </div>    
 </body>
